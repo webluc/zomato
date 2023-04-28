@@ -72,7 +72,26 @@ empresa e que sejam gerados dashboards, a partir dessas análises, para responde
 
 # Premissas assumidas para ánalise
 
-  1. Marketing place é o modelo de négocio assumido
+  1. Marketing place é o modelo de négocio.
   2. As 05 visões de négocio: Geral - País - Cidades - Restaurantes - Tipos de Culinárias
-  3. 
+  3. Análise realizada num dataset com 7527 linhas.
 
+# Estratégia de Solução
+
+1. Visão Geral
+2. Visão por Paises
+3. Visão por Cidades
+4. Visão por Culinarias
+
+1. Visão Geral / Atualizado pelo filtro na barra lateral.
+  I. Total de Restaurantes 
+  II. Total de Paises
+  III. Total de Cidades
+  IV. Total de Tipos de Culinária
+
+2. Visão por Paises
+  I. Total de Cidades por paises
+  II. Total de Restaurantes por paises
+  III. Soma de votos dos restaurantes por pais
+  IV. Soma de tipos de culinarias por pais
+  
