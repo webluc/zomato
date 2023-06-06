@@ -15,14 +15,14 @@ Fome Zero, e para isso, ele precisa que seja feita uma análise nos dados da
 empresa e que sejam gerados dashboards, a partir dessas análises, para responder
 às seguintes perguntas:
 
-##  Geral
+###  Geral
 1. Quantos restaurantes únicos estão registrados?
 2. Quantos países únicos estão registrados?
 3. Quantas cidades únicas estão registradas?
 4. Qual o total de avaliações feitas?
 5. Qual o total de tipos de culinária registrados?
 
-## Pais
+### Pais
 1. Qual o nome do país que possui mais cidades registradas?
 2. Qual o nome do país que possui mais restaurantes registrados?
 3. Qual o nome do país que possui mais restaurantes com o nível de preço igual a 4 registrados?
@@ -35,7 +35,7 @@ empresa e que sejam gerados dashboards, a partir dessas análises, para responde
 10. Qual o nome do país que possui, na média, a menor nota média registrada?
 11. Qual a média de preço de um prato para dois por país?
 
-## Cidade
+### Cidade
 1. Qual o nome da cidade que possui mais restaurantes registrados?
 2. Qual o nome da cidade que possui mais restaurantes com nota média acima de 4?
 3. Qual o nome da cidade que possui mais restaurantes com nota média abaixo de 2.5?
@@ -45,7 +45,7 @@ empresa e que sejam gerados dashboards, a partir dessas análises, para responde
 7. Qual o nome da cidade que possui a maior quantidade de restaurantes que fazem entregas?
 8. Qual o nome da cidade que possui a maior quantidade de restaurantes que aceitam pedidos online?
 
-## Restaurantes
+### Restaurantes
 1. Qual o nome do restaurante que possui a maior quantidade de avaliações?
 2. Qual o nome do restaurante com a maior nota média?
 3. Qual o nome do restaurante que possui o maior valor de uma prato para duas pessoas?
@@ -55,7 +55,7 @@ empresa e que sejam gerados dashboards, a partir dessas análises, para responde
 7. Os restaurantes que fazem reservas são também, na média, os restaurantes que possuem o maior valor médio de um prato para duas pessoas?
 8. Os restaurantes do tipo de culinária japonesa dos Estados Unidos da América possuem um valor médio de prato para duas pessoas maior que as churrascarias americanas (BBQ)?
 
-## Tipos de Culinária
+### Tipos de Culinária
 1. Dos restaurantes que possuem o tipo de culinária italiana, qual o nome do restaurante com a maior média de avaliação?
 2. Dos restaurantes que possuem o tipo de culinária italiana, qual o nome do restaurante com a menor média de avaliação?
 3. Dos restaurantes que possuem o tipo de culinária americana, qual o nome do restaurante com a maior média de avaliação?
@@ -78,10 +78,14 @@ empresa e que sejam gerados dashboards, a partir dessas análises, para responde
 
 # Estratégia de Solução
 
+O painel estratégico foi desenvolvido utilizando as métricas que refletem as 4 principais visões do modelo de négocio da empresa:
+
 1. Visão Geral
 2. Visão por Paises
 3. Visão por Cidades
 4. Visão por Culinarias
+
+Cada visão representada pelo seguinte conjunto de metricas.
 
 1. Visão Geral / Atualizado pelo filtro na barra lateral.
   I. Total de Restaurantes 
@@ -94,4 +98,13 @@ empresa e que sejam gerados dashboards, a partir dessas análises, para responde
   II. Total de Restaurantes por paises
   III. Soma de votos dos restaurantes por pais
   IV. Soma de tipos de culinarias por pais
+ 
+3. Visão por Cidades
+  I. 
+ 
+4.  Visão por Culinarias 
+  I
+
+
+ 
   
